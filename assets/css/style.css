@@ -735,6 +735,8 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   color: #fff;
+}
+.hero-subtitle {
   font-family: 'FifaFont'
 }
 @media (min-width: 768px) {
