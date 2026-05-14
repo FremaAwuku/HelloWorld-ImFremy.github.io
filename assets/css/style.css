@@ -17,6 +17,10 @@ PINK
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face{
+  font-family:'FifaFont';
+  src: url('../fifa-26.otf')
+}
 *{
   box-sizing: border-box;
 }
@@ -721,6 +725,7 @@ a:hover {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  font-family: 'FifaFont'
 }
 @media (min-width: 768px) {
   .hero .hero-title {
