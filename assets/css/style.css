@@ -705,7 +705,6 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
 }
 .hero .hero-content {
   text-align: center;
@@ -722,10 +721,10 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #fff;
+  color: #000;
   font-weight: 600;
   font-size: 3rem;
-  font-family: 'FifaFont'
+  
 }
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -735,6 +734,8 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  color: #fff;
+  font-family: 'FifaFont'
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
