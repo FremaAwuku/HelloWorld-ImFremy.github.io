@@ -740,27 +740,8 @@ a:hover {
 --#ca9859: #ca9859;
 --#791618: #791618;
 */
-.layer-0 {
- color: #000;
-  z-index: 1
-  
-}
-.layer-1{
-  font-size: 2.7rem;
-  color: #fe3d03;
-  z-index: 2
-}
-.layer-2{
-  font-size: 2.5rem;
-  color: #6201e8;
-  z-index: 3
-}
-.hero-container{
-  display:flex; 
-  align-items: center;
-  justify-content:center;
-  
-}
+
+
 .hero {
   height: 100vh;
   position: relative;
@@ -783,30 +764,16 @@ a:hover {
  
   font-weight: 600;
   font-size: 3rem;
-  font-family: 'FatFifaFont';
+  font-family: 'FifaFont';
+  color: #fe3d03;
+
   
 }
 @media (min-width: 768px) {
  
-   
-
-  
-  .layer-0 {
- color: #000;
-  z-index: 1
-     font-size: 4.5rem;
-  
-}
-.layer-1{
-  font-size: 4.3rem;
-  color: #fe3d03;
-  z-index: 2
-}
-.layer-2{
-  font-size: 4.1rem;
-  color: #6201e8;
-  z-index: 3
-
+ .hero .hero-title {
+    font-size: 4.5rem;
+    
   }
 }
 .hero .hero-subtitle {
