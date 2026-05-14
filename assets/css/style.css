@@ -20,6 +20,10 @@ PINK
 @font-face{
   font-family:'FifaFont';
   src: url('../font/fifa_font_2.otf')
+
+  font-family:'FatFifaFont';
+  
+  src: url('../font/fifa-font2026.otf')
 }
 *{
   box-sizing: border-box;
