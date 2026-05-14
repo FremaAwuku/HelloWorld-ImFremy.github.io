@@ -12,7 +12,25 @@ LIGHT BLU
 
 PINK
 #ffc3ff
+
+FIFA COLORS 
+/* CSS HEX 
+
+#fe3d03 0range
+
+
+--#6201e8: #6201e8;
+--#394af5: #394af5;
+--#bfed25: #bfed25;
+--#e22203: #e22203;
+--#0a5040: #0a5040;
+--#63f4d3: #63f4d3;
+--#ad84f4: #ad84f4;
+--#ca9859: #ca9859;
+--#791618: #791618;
 */
+
+
 
 /*--------------------------------------------------------------
 # General
@@ -707,6 +725,37 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* CSS HEX 
+
+#fe3d03 0range
+
+
+--#6201e8: #6201e8;
+--#394af5: #394af5;
+--#bfed25: #bfed25;
+--#e22203: #e22203;
+--#0a5040: #0a5040;
+--#63f4d3: #63f4d3;
+--#ad84f4: #ad84f4;
+--#ca9859: #ca9859;
+--#791618: #791618;
+*/
+.layer-0 {
+ color: #000;
+  z-index: 1
+  
+}
+.layer-1{
+  font-size: 2.7rem;
+  color: #fe3d03;
+  z-index: 2
+}
+.layer-2{
+  font-size: 2.5rem;
+  color: #6201e8;
+  z-index: 3
+}
+
 .hero {
   height: 100vh;
   position: relative;
@@ -726,7 +775,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #000;
+ 
   font-weight: 600;
   font-size: 3rem;
   font-family: 'FatFifaFont';
