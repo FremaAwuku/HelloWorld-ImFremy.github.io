@@ -25,6 +25,11 @@ PINK
   
   src: url('../font/fifa-font2026.otf')
 }
+@font-face{
+
+  font-family:'FatFifaFont';  
+  src: url('../font/fifa-26.otf')
+}
 *{
   box-sizing: border-box;
 }
@@ -733,15 +738,16 @@ a:hover {
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
+    font-family: 'FifaFont';
   }
 }
 .hero .hero-subtitle {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 200;
   color: #fff;
 }
 .hero-subtitle {
-  font-family: 'FifaFont'
+  font-family: 'FatFifaFont';
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
