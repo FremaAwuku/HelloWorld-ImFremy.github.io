@@ -755,7 +755,12 @@ a:hover {
   color: #6201e8;
   z-index: 3
 }
-
+.hero-container{
+  display:flex; 
+  align-items: center;
+  justify-content:center;
+  
+}
 .hero {
   height: 100vh;
   position: relative;
@@ -782,9 +787,26 @@ a:hover {
   
 }
 @media (min-width: 768px) {
-  .hero .hero-title {
-    font-size: 4.5rem;
-    
+ 
+   
+
+  
+  .layer-0 {
+ color: #000;
+  z-index: 1
+     font-size: 4.5rem;
+  
+}
+.layer-1{
+  font-size: 4.3rem;
+  color: #fe3d03;
+  z-index: 2
+}
+.layer-2{
+  font-size: 4.1rem;
+  color: #6201e8;
+  z-index: 3
+
   }
 }
 .hero .hero-subtitle {
