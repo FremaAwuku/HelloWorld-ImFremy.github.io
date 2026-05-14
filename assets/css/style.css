@@ -19,7 +19,7 @@ PINK
 --------------------------------------------------------------*/
 @font-face{
   font-family:'FifaFont';
-  src: url('../fifa-26.otf')
+  src: url('../font/fifa-font-2.otf')
 }
 *{
   box-sizing: border-box;
